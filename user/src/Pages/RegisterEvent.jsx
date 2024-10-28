@@ -60,7 +60,7 @@ function RegisterEvent() {
     event.preventDefault();
 
     try {
-      const response = await axios.post("http://localhost:3000/reg-event", {
+      const response = await axios.post("https://trac-for-sports-server.vercel.app/reg-event", {
         id,
         regData: regData,
         total,
@@ -82,7 +82,7 @@ function RegisterEvent() {
   const buyFunction = async () => {
     try {
       const temp = id + currId;
-      const response = await axios.post("http://localhost:3000/payment", {
+      const response = await axios.post("https://trac-for-sports-server.vercel.app/payment", {
         temp,
       });
       if (response.status === 200) {
