@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.vid{
+    width: 90vw;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    z-index: 1;
+    margin-top: -30px;
+}
+
+@layer{
+    .button{
+        @apply  h-[40px] w-[150px] text-[18px] flex justify-center items-center outline outline-[1.5px] outline-slate-400 text-center rounded-[50px] font-pop hover:bg-slate-200 font-[500]
+    }
+}
+
+
+
+
+
