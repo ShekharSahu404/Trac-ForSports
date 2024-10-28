@@ -16,8 +16,8 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: "https://trac-for-sports-oooxjpx1y-shekhar-sahus-projects.vercel.app",
-      //["https://trac-for-sports.vercel.app","https://trac-for-sports-server.vercel.app"],
+    origin: 
+      ["https://trac-for-sports-oooxjpx1y-shekhar-sahus-projects.vercel.app","https://trac-for-sports-server.vercel.app"],
    
     credentials: true,
   })
