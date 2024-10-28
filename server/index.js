@@ -16,8 +16,8 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: ["https://trac-for-sports.vercel.app/", "https://trac-for-sports-server.vercel.app/"],
-    methods: ["GET", "POST", "PUT", "DELETE"],
+    origin: ["https://trac-for-sport-event.vercel.app","https://trac-gamma.vercel.app"],
+   
     credentials: true,
   })
 );
