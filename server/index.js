@@ -16,7 +16,8 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: ["https://trac-for-sports.vercel.app","https://trac-for-sports-server.vercel.app"],
+    origin: "https://trac-forsports.onrender.com";
+      //["https://trac-for-sports.vercel.app","https://trac-for-sports-server.vercel.app"],
    
     credentials: true,
   })
