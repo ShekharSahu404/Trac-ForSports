@@ -13,11 +13,11 @@ const showEvent = require("./Controllers/ShowEventController");
 const port = 3000;
 
 app.use(cookieParser());
-
+app.use(cors());
 app.use(
   cors({
     origin: 
-      ["https://trac-for-sports-oooxjpx1y-shekhar-sahus-projects.vercel.app","https://trac-for-sports-server.vercel.app"],
+      ["https://trac-for-sports-oooxjpx1y-shekhar-sahus-projects.vercel.app","https://trac-for-sports.vercel.app/","https://trac-for-sports-server.vercel.app"],
    
     credentials: true,
   })
