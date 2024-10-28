@@ -53,7 +53,7 @@ export default function Signup() {
     //     console.error(err);
     //  });
     try {
-      const { data } = await axios.post("http://localhost:3000/signup", {
+      const { data } = await axios.post("https://trac-for-sports-server.vercel.app/signup", {
         ...inputValue,
       });
       console.log("success");
