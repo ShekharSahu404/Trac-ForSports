@@ -31,7 +31,7 @@ function RegisterEvent() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/show-events/${id}`)
+      .get(`https://trac-for-sports-server.vercel.app/${id}`)
       .then((response) => {
         setData(response.data);
 
