@@ -32,7 +32,7 @@ export default function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post("http://localhost:3000/login", {
+      const { data } = await axios.post("https://trac-for-sports-server.vercel.app/login", {
         ...inputValue,
       });
 
