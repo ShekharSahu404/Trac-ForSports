@@ -125,7 +125,7 @@ const AddEvent = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await axios.post("http://localhost:3000/save-form", {
+      const response = await axios.post("https://trac-for-sports-server.vercel.app/save-form", {
         inputs: inputs,
         imageurl: urllink,
         creatorId: curr.userid,
