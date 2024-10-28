@@ -1,10 +1,11 @@
 const mongoose = require("mongoose");
-//require("dotenv").config();
+require("dotenv").config();
 
 // Replace this with your MONGOURI.
-const MONGOURI = "mongodb+srv://shekharsahu1020:TQqo5DqD271w4Wro@talk.ltnqddt.mongodb.net/?retryWrites=true&w=majority&appName=talk";
+const MONGOURI = process.env.MONGO_URL;
+  //"mongodb+srv://shekharsahu1020:TQqo5DqD271w4Wro@talk.ltnqddt.mongodb.net/?retryWrites=true&w=majority&appName=talk";
 
-  //process.env.MONGO_URL;
+ 
 
 const InitiateMongoServer = async () => {
   try {
